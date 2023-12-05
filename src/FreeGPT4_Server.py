@@ -5,7 +5,7 @@ import os
 
 # GPT Library
 import sys
-sys.path.append('../gpt4free')
+sys.path.append('..gpt4free')
 import g4f
 
 # Server
