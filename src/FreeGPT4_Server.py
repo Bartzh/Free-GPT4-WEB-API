@@ -4,8 +4,8 @@ import json
 import os
 
 # GPT Library
- import sys
- sys.path.append('/workspace/./gpt4free')
+import sys
+sys.path.append('/workspace/./gpt4free')
 import g4f
 
 # Server
