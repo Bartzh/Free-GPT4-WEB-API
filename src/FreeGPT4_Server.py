@@ -4,7 +4,9 @@ import json
 import os
 
 # GPT Library
-from ..gpt4free import g4f
+import sys
+sys.path.append('../gpt4free')
+import g4f
 
 # Server
 from flask import Flask, redirect, render_template
